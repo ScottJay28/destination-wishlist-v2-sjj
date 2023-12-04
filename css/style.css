@@ -49,3 +49,9 @@
 h4 {
   text-align: center;
 }
+input {
+  position: relative;
+  left: 40%;
+  size: 40px;
+  width: 215px;
+}
