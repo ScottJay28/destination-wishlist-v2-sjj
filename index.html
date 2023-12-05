@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Destination Page</title>
+    <title>Destination Page V2</title>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -14,39 +14,51 @@
         to add them to your wishlist.
       </p>
     </article>
-    <section class="info">
-      <div class="destination">
-        <h4>Destination name</h4>
-        <input
-          type="text"
-          id="name"
-          placeholder="Enter the name of the destination"
-        />
+    <article class="card_container">
+      <div id="info">
+        <div>
+          <h4>Destination name</h4>
+          <input
+            type="text"
+            id="name"
+            placeholder="Enter the name of the destination"
+          />
+        </div>
+        <div>
+          <h4>Location</h4>
+          <input type="text" id="location" placeholder="Where is it located?" />
+        </div>
+        <div>
+          <h4>Photo</h4>
+          <input
+            type="text"
+            id="photo"
+            placeholder="Enter an image url of the place"
+          />
+        </div>
+        <div>
+          <h4>Description</h4>
+          <input
+            type="text"
+            id="description"
+            placeholder="What do you like about it?"
+          />
+        </div>
       </div>
-      <div>
-        <h4>Location</h4>
-        <input type="text" id="location" placeholder="Where is it located?" />
+      <div id="destinations">
+        <p id="dest">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+          tempora quisquam nostrum, at a cupiditate ipsa id dignissimos
+          similique nesciunt rerum autem reprehenderit aspernatur soluta? Harum
+          ea laudantium commodi excepturi.
+        </p>
+        <p id="displaycard">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae,
+          tenetur mollitia. Dolore tenetur aut libero, enim magni et ex eius
+          odit saepe ratione eos delectus in. Optio pariatur corporis
+          distinctio.
+        </p>
       </div>
-      <div>
-        <h4>Photo</h4>
-        <input
-          type="text"
-          id="photo"
-          placeholder="Enter an image url of the place"
-        />
-      </div>
-      <div>
-        <h4>Description</h4>
-        <input
-          type="text"
-          id="description"
-          placeholder="What do you like about it?"
-        />
-      </div>
-    </section>
-    <div class="cardsection">
-      <h2 class="details">Enter destination details</h2>
-      <div class="display-cards"></div>
-    </div>
+    </article>
   </body>
 </html>
